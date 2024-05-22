@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=1, initial-scale=1.0">
     <title>Fontes</title>
     <style>
+        @import url();
         body{
-            font-family:Arial, Helvetica, sans-serif, monospace ;
+            font-family:'work sans' ,Arial, Helvetica, sans-serif, monospace ;
             
             /*h1,h2{
             font-family: 'Times New Roman', Times, serif;
@@ -18,8 +19,24 @@
             
             medidas relativas são; em, ex, rem, vw, vh, %
             16px= 1em
-        */
+        
             font-size: 1em ;
+            font-weight:normal ;
+            font-style: italic;
+            text-decoration: underline;
+            lighter normal bold bolder */
+        }
+        h1{
+            /* font-family:'Times New Roman', Times, serif;
+            font-size: 3em;
+            font-weight: bolder;
+            font-style: oblique;
+             shorthand font
+            - font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 3em 'work sans',sans-serif ; 
+        }
+        h2{
+          font:bold 2em 'work sans' ;
         }
         
     </style>
