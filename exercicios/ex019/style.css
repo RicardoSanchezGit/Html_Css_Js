@@ -1,0 +1,22 @@
+@charset "utf-8" ;
+
+/*
+ Em Html id = # em CSS
+ Em Html Class = .  em CSS
+*/
+
+body{
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1#principal{
+    background-color: greenyellow;
+    color: black;
+    text-align: center;
+}
+h1{
+    color: greenyellow;
+}
+h2{
+    color: rgb(38, 56, 10)
+}
