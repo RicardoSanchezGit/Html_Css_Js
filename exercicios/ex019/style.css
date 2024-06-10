@@ -1,22 +1,38 @@
 @charset "utf-8" ;
 
 /*
- Em Html id = # em CSS
- Em Html Class = .  em CSS
+ Em Html id = # em CSS (Pode apenas um por página HTML)
+ Em Html Class = .  em CSS (Pode multiplos por página)
 */
 
 body{
-    background-color: green;
+    background-color: rgb(99, 136, 91);
     font-family: Arial, Helvetica, sans-serif;
 }
 h1#principal{
-    background-color: greenyellow;
+    background-color: rgb(139, 165, 101);
     color: black;
     text-align: center;
 }
 h1{
-    color: greenyellow;
+    color: rgb(197, 250, 118);
 }
 h2{
     color: rgb(38, 56, 10)
+}
+.destaque{
+    background-color:rgb(41, 51, 25);
+    font-weight: bold;
+}
+
+.basico{
+    color: rgb(202, 255, 123);
+}
+
+.intermediario{
+    color: rgb(241, 241, 124);
+}
+
+.avancado{
+    color: rgb(243, 84, 84);
 }
